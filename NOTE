@@ -1,0 +1,19 @@
+1. To add Cucumber plugin in Eclipse
+	(Help -> Install new Software --> http://cucumber.github.com/cucumber-eclipse/update-site)
+
+2. To navigate to StepDefinition Class from feature file 
+	(Single Click on feature file line and press F3 or Right Click --> Find Step )
+	
+3.  To fix the warning message in feature file (Does not have a matching glue)
+	(Right click project -> Configure -> Convert to Java Cucumber Project)
+
+4. To format the feature contents
+	(Right Click --> Pretty Format)
+
+	
+5. Running Cucumber Scripts from Command Line
+	mvn test
+	
+6. Running specific feature file only
+	mvn test -Dcucumber.options="features/login/login.feature"		
+	
