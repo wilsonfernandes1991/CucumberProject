@@ -1,11 +1,13 @@
 Feature: Test Login Feature
   I need to test the login functionlity
 
+  @SmokeTest @RegressionTest
   Scenario: Test login with valid credentials
     Given I open the Browser
     When I enter userName and password
     Then I verify home page
 
+  @SmokeTest
   Scenario Outline: 
     Given I open the Browser
     When I enter "<username>" and "<password>"
